@@ -575,7 +575,7 @@ if __name__ == '__main__':
         model.val()
     elif args.type == 'test_single':
         model = MVFEM(net_list=[
-            'Multi_View_weights.pth', 'MIX_noiseprint_weights.pth'
+            'Multi_View_RGB_weights.pth', 'MIX_noiseprint_weights.pth'
         ]).cuda()
         file_npy = generate_flist(args.path_input, args.path_gt, args.nickname)
         ForensicTesting(model, test_npy=file_npy)

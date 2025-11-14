@@ -552,7 +552,7 @@ class RGBDomain(nn.Module):
     def __init__(self):
         super().__init__()
         H, W = 256, 256
-        self.name = 'Muti_View_RGB'
+        self.name = 'Multi_View_RGB'
         self.net = HRNet()
         self.in_channels = [32, 64, 128, 256]
         self.gate = nn.Sequential(

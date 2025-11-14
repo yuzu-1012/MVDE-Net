@@ -57,7 +57,7 @@ Also, if you provide corresponding gt masks in the `demo/gt/`, pF1 and pIoU will
 sh generate_flist.sh
 ```
 
-**Note: We have uploaded our model's weight on Google Drive. You can download from [here](https://drive.google.com/drive/folders/1uH485rBVyuvbypEbirczwqLJmCLn-mqo?usp=sharing) and put it in the `weghts/` directory.**
+**Note: We have uploaded our model's weight on Google Drive. You can download from [here](https://drive.google.com/drive/folders/1uH485rBVyuvbypEbirczwqLJmCLn-mqo?usp=sharing) and put it in the `weights/` directory.**
 
 ## Citation
 
