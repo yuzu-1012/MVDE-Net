@@ -505,7 +505,7 @@ def ForensicTesting(model, bs=1, test_npy='', test_file=None):
     Pixel_F1 = np.mean(f1)
     Pixel_IOU = np.mean(iou)
     if args.type == 'test_single':
-        logger.info('%s Score: F1: %5.4f, IoU: %5.4f' % (Pixel_F1, Pixel_IOU))
+        logger.info('%s Score: F1: %5.4f, IoU: %5.4f' % (args.nickname, Pixel_F1, Pixel_IOU))
     return Pixel_F1, Pixel_IOU
 
 
